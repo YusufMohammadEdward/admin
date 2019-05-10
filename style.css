@@ -1,0 +1,170 @@
+body {
+	overflow-x: hidden;
+	font-family: 'Arial', sans-serif;
+	color: #505962;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: rgba(0, 0, 0, .6)!important;
+}
+
+.navbar-brand img{
+	height: 4rem;
+}
+
+.navbar-nav li {
+	padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: black;
+}
+
+/*Slider*/
+
+.carousel-item {
+	height: 100vh;
+}
+.carousel-caption {
+	position: absolute;
+	top: 38%;
+	text-transform: uppercase;
+	width: 100%;
+	right: 0;
+	left: 0;
+}
+.carousel-caption h1 {
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem black;
+	padding-bottom: 1rem;
+}
+.carousel-caption h3 {
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem;
+}
+.btn-lg {
+	border-width: medium;
+	border-radius: 0;
+	font-size: 1.1rem;
+}
+
+/*About ME*/
+#section-about {
+	margin-top: 120px;
+}
+#section-about span{
+	padding: 10px 20px 10px 20px;
+}
+#section-about hr {
+	border-width: 2px;
+	margin-top: 06px;
+}
+
+/*Skills*/
+#section-skills span{
+	padding: 10px 20px 10px 20px;
+}
+#section-skills hr {
+	border-width: 2px;
+	margin-top: 06px;
+	margin-bottom: 06px;
+}
+
+/*Experience*/
+#section-experience span {
+	padding: 10px 20px 10px 20px;
+}
+
+#section-experience hr {
+	border-width: 2px;
+	margin-top: 06px;
+}
+
+#section-experience .card {
+	border-top: 03px solid grey;
+}
+
+/*education*/
+#section-education span {
+	padding: 10px 20px 10px 20px;
+}
+#section-education hr {
+	border-width: 2px;
+	margin-top: 06px;
+}
+
+/*kontak*/
+#section-contact span {
+	padding: 10px 20px 10px 20px;
+}
+
+#section-contact hr {
+	border-width: 2px;
+	margin-top: 06px;
+}
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+@media (max-width: 767px) {
+	.carousel-caption h1 {
+		font-size: 2.3rem;
+		letter-spacing: .1rem;
+		padding-bottom: .5rem;
+	}
+	.carousel-caption h3 {
+		font-size: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+	.btn-lg { 
+		font-size: 1rem;
+	}
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
